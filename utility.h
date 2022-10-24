@@ -1,27 +1,9 @@
-/**
- * utility.h
- * Project UID 5557cbe19b6ff413629a3743c503275413233136
- *
- * EECS 183
- * Project 3: 0h h1
- *
- * This file contains declarations for global constants and utility
- * functions that are likely to be useful in writing ohhi.cpp and
- * test.cpp.
- */
-
 #ifndef _UTILITY_H_
 #define _UTILITY_H_
 
 #include <string>
 
 using namespace std;
-
-//////////////////////////////////////////////////////////////////////
-// GLOBAL CONSTANTS                                                 //
-// ----------------                                                 //
-// These constants should be used where appropriate.                //
-//////////////////////////////////////////////////////////////////////
 
 const int MIN_SIZE = 2;
 const int MAX_SIZE = 8;
@@ -38,13 +20,6 @@ const string UNKNOWN_STRING = "unknown";
 const string RED_STRING = "X";
 const string BLUE_STRING = "O";
 
-
-//////////////////////////////////////////////////////////////////////
-// STAFF-IMPLEMENTED UTILITY FUNCTIONS                              //
-// -----------------------------------                              //
-// These are functions you will likely need to call in your         //
-// solution or test suite.                                          //
-//////////////////////////////////////////////////////////////////////
 
 /**
  * Requires: Color is one of UNKNOWN, RED, or BLUE.
