@@ -1,42 +1,11 @@
-/***
- * driver.cpp
- * Project UID 5557cbe19b6ff413629a3743c503275413233136
- *
- * EECS 183
- * Project 3: 0h h1
- *
- * This file contains implementations of driver and other
- * staff-implemented functions that are not needed in writing ohhi.cpp
- * and test.cpp.
- */
-
 #include <iostream>
 #include <cstdlib>
 #include <cctype>
-#include "color.h"
 #include "driver.h"
 #include "utility.h"
 #include "ohhi.h"
 
 using namespace std;
-
-///////////////////////////////////////
-// I/O HELPER FUNCTIONS ///////////////
-///////////////////////////////////////
-
-void print_color(int color) {
-    if (color == RED) {
-        set_color(LIGHTRED_CODE);
-        cout << RED_LETTER;
-        reset_color();
-    } else if (color == BLUE) {
-        set_color(LIGHTCYAN_CODE);
-        cout << BLUE_LETTER;
-        reset_color();
-    } else {
-        cout << UNKNOWN_LETTER;
-    }
-}
 
 string filter_line(string line) {
     string result = "";
