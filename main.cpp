@@ -2,7 +2,6 @@
 #include <cstdlib>
 #include <cctype>
 #include <ctime>
-#include "color.h"
 #include "driver.h"
 #include "utility.h"
 #include "ohhi.h"
