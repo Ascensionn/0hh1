@@ -1,16 +1,3 @@
-/**
- * main.cpp
- * Project UID 5557cbe19b6ff413629a3743c503275413233136
- *
- * EECS 183
- * Project 3: 0h h1
- *
- * <#Name(s)#>
- * <#uniqname(s)#>
- *
- * <#A description of the project here#>
- */
-
 #include <iostream>
 #include <cstdlib>
 #include <cctype>
