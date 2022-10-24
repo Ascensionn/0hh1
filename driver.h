@@ -6,12 +6,6 @@
 
 using namespace std;
 
-//////////////////////////////////////////////////////////////////////
-// DRIVER AND OTHER STAFF-IMPLEMENTED FUNCTIONS                     //
-// --------------------------------------------                     //
-// You likely will not need to call these functions in your code.   //
-//////////////////////////////////////////////////////////////////////
-
 /**
  * Requires: size <= MAX_SIZE and size is a positive even integer,
  *           0 <= row && row < size.
