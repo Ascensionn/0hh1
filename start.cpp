@@ -1,16 +1,3 @@
-/**
- * start.cpp
- * Project UID 5557cbe19b6ff413629a3743c503275413233136
- *
- * EECS 183: Project 3
- *
- * main() function selects between executing your test cases
- * and the main application.
- * 
- * You do not need to make any changes to this file or
- * submit it to the autograder.
- */
-
 #include <iostream>
 #include <string>
 
