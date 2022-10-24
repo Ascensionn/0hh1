@@ -1,14 +1,3 @@
-/**
- * utility.cpp
- * Project UID 5557cbe19b6ff413629a3743c503275413233136
- *
- * EECS 183
- * Project 3: 0h h1
- *
- * This file contains implementations of utility functions that are likely
- * to be useful in writing ohhi.cpp and test.cpp.
- */
-
 #include <iostream>
 #include "driver.h"
 #include "utility.h"
