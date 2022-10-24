@@ -1,24 +1,9 @@
-/**
- * utility.cpp
- * Project UID 5557cbe19b6ff413629a3743c503275413233136
- *
- * EECS 183
- * Project 3: 0h h1
- *
- * This file contains implementations of utility functions that are likely
- * to be useful in writing ohhi.cpp and test.cpp.
- */
-
 #include <iostream>
 #include "driver.h"
 #include "utility.h"
 #include "ohhi.h"
 
 using namespace std;
-
-///////////////////////////////////////
-// UTILITY FUNCTIONS //////////////////
-///////////////////////////////////////
 
 int opposite_color(int color) {
     if (color == RED) {
@@ -29,7 +14,6 @@ int opposite_color(int color) {
     return UNKNOWN;
 }
 
-// Helper functions for print_board().
 void print_col_header(int size);
 void print_horizontal_boundary(int size);
 
@@ -112,11 +96,6 @@ bool read_board_from_string(int board[MAX_SIZE][MAX_SIZE],
 
     return true;
 }
-
-
-///////////////////////////////////////
-// print_board() HELPER FUNCTIONS /////
-///////////////////////////////////////
 
 void print_col_header(int size) {
     cout << "  ";
