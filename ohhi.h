@@ -1,15 +1,3 @@
-/**
- * ohhi.h
- * Project UID 5557cbe19b6ff413629a3743c503275413233136
- *
- * EECS 183
- * Project 3: 0h h1
- *
- * 0h h1 (http://www.0hh1.com/) is a sudoku-like logic puzzle.
- * This program allows a user to play and solve an 0h h1 board.
- * This file declares all the functions in ohhi.cpp.
- */
-
 #ifndef _OHHI_H_
 #define _OHHI_H_
 
