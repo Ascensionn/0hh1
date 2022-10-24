@@ -1,18 +1,3 @@
-/**
- * ohhi.cpp
- * Project UID 5557cbe19b6ff413629a3743c503275413233136
- *
- * EECS 183
- * Project 3: 0h h1
- *
- * Yanbo Zhai    Tian Jian He
- * zhaiyanb
- * andyhe
- *
- * This project  is an application to read, check, solve,
- * and play basic instances of 0h h1, a Sudoku-like puzzle game.
- */
-
 #include <iostream>
 #include "utility.h"
 #include "ohhi.h"
