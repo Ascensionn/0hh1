@@ -3,9 +3,6 @@
 
 using namespace std;
 
-//************************************************************************
-// Function declarations. Function definitions are in birthdays.cpp and test.cpp
-//************************************************************************
 void ohhi();
 void startTests();
 
