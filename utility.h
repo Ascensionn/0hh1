@@ -115,4 +115,4 @@ bool read_board_from_string(int board[MAX_SIZE][MAX_SIZE],
                             int size);
 
 
-#endif // _UTILITY_H_
+#endif
