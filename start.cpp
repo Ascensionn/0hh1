@@ -11,10 +11,7 @@ void startTests();
 
 int main()
 {
-
-    cout << "-------------------------------" << endl
-         << "EECS 183 Project 3 Menu Options" << endl
-         << "-------------------------------" << endl;
+    
     cout << "1) Execute testing functions in test.cpp" << endl;
     cout << "2) Execute ohhi() function in main.cpp" << endl;
     cout << "Choice --> ";
